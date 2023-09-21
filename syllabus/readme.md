@@ -60,7 +60,7 @@
 6.  Checking disk quotas
 7.  Sending mail to all users
 
-**Unit VI: Security and System Handling \-\-- 6 hours**
+**Unit VI: Security and System Handling  6 hours**
 
 1.  Understanding shell scripts
 2.  System startup and shutdown
