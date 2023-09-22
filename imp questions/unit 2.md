@@ -241,7 +241,7 @@ Here are the purposes of the mentioned directories in Linux:
    - **Purpose:** The `/etc` directory contains system-wide configuration files and settings for various software applications and services. It stores configuration data for system processes, libraries, and system-wide settings.
    - **Usage:** `/etc` is a critical directory for system configuration. It allows administrators to customize system behavior, network settings, security policies, and more.
 
-## 7. How can you determine the total memory used by LINUX? Why Linux is considered as more secured than other operating systems
+## 6. How can you determine the total memory used by LINUX? Why Linux is considered as more secured than other operating systems
 
 To determine the total memory used by a Linux system, you can use various commands and tools. One commonly used command is `free`. Here's how you can use it:
 
