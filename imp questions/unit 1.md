@@ -1,4 +1,4 @@
-**1. What is Linux? Is it legal to edit Linux kernel? Is Linux operating system virus free? Explain.**
+## 1. What is Linux? Is it legal to edit Linux kernel? Is Linux operating system virus free? Explain.
 
 Linux is an open-source Unix-like operating system kernel that serves as the core component of many popular operating systems. Developed by Linus Torvalds in 1991, Linux was created as a free and open-source alternative to proprietary operating systems. The kernel itself manages hardware resources and provides essential services to run software applications.
 
@@ -34,7 +34,7 @@ Linux is not immune to malware, but it tends to have a significantly lower risk 
 
 While Linux is generally more secure, it is not immune to security vulnerabilities and threats. Regular software updates and good security practices are still essential to keep a Linux system secure. Users should also exercise caution when downloading and installing software from untrusted sources to mitigate potential risks.
 
-**2. Why Linux operating system is so popular? Differentiate between open source software and freeware.**
+## 2. Why Linux operating system is so popular? Differentiate between open source software and freeware.
 Linux is a popular operating system for several reasons, including its open-source nature, stability, security, flexibility, and the vibrant communities that support it. Here are some key factors that contribute to Linux's popularity:
 
 1. **Open Source Philosophy:** Linux is built on the principles of open source software, which means its source code is freely available for anyone to view, modify, and distribute. This encourages collaboration and innovation from a global community of developers and contributors.
@@ -63,7 +63,7 @@ Linux is a popular operating system for several reasons, including its open-sour
 
 
 
-**3. “IT is running on cloud and cloud is running on Linux.” Justify the statement.**
+## 3. “IT is running on cloud and cloud is running on Linux.” Justify the statement.
 
 The statement "IT is running on cloud, and cloud is running on Linux" highlights the significant role that Linux plays in the modern cloud computing infrastructure. Let's justify this statement by explaining why Linux is so crucial in the context of cloud computing:
 
@@ -104,7 +104,7 @@ The statement "IT is running on cloud, and cloud is running on Linux" highlights
 
  Linux is deeply ingrained in the fabric of cloud computing. It serves as the foundation upon which cloud infrastructure is built, providing the essential components for scalability, performance, security, and cost-effectiveness. This strong relationship between Linux and cloud computing reinforces the statement that "IT is running on cloud, and cloud is running on Linux."
 
-**4. How does open source becomes famous? Write the advantages of Linux over other operating system.**
+## 4. How does open source becomes famous? Write the advantages of Linux over other operating system.
 
 
 Open-source software can become famous or widely recognized through various mechanisms and characteristics that distinguish it from proprietary software. Here are some factors that contribute to the fame and popularity of open-source projects:
@@ -150,7 +150,7 @@ Linux offers several advantages over other operating systems, which contribute t
 10. **Global Usage:** Linux is widely used in diverse fields, including web hosting, cloud computing, scientific research, and mobile devices, contributing to its global impact and recognition.
 
 
-**5. Explain the Linux with its architecture. What are the different Linux distribution? Explain any two.**
+## 5. Explain the Linux with its architecture. What are the different Linux distribution? Explain any two.
 
 Linux is a Unix-like operating system kernel that forms the core of various Linux distributions, commonly referred to as Linux distros. Linux was initially developed by Linus Torvalds in 1991, and since then, it has grown into a robust and versatile platform used in a wide range of computing environments.
 
@@ -204,7 +204,7 @@ Certainly, let's expand the list of Linux distributions to include Linux distrib
 These Linux distributions cater to different aspects of Students, DevOps, cybersecurity, ethical hacking, privacy, and anonymity.
 
 
-**6. Define term 'culture of free software'? How Linux and UNIX is related? Explain.**
+## 6. Define term 'culture of free software'? How Linux and UNIX is related? Explain.
 
 The "culture of free software" refers to a set of principles, values, and practices associated with the development and distribution of software that emphasizes freedom, openness, and collaboration. This culture is closely linked to the broader concept of open source software but places a strong emphasis on the fundamental freedoms that users and developers should have in relation to software. Key aspects of the culture of free software include:
 
@@ -242,63 +242,3 @@ Linux and UNIX are closely related in terms of their operating system design and
    - Interoperability between Linux and other UNIX systems is facilitated by their adherence to common standards.
 
 In summary, Linux is an open-source UNIX-like operating system that draws inspiration from UNIX but has evolved independently. It shares design principles and compatibility with UNIX systems while maintaining its own distinct identity and development community.
-**7. What is linux file System? Explain file system hierarchy with their special purposes in linux.**
-The Linux file system is a hierarchical structure used to organize and manage files, directories, and other data on a Linux-based operating system. It provides a unified way to access, store, and manage data, and it plays a crucial role in the overall functionality of the system. The Linux file system adheres to a standard hierarchy known as the Filesystem Hierarchy Standard (FHS), which defines the layout and purposes of various directories.
-
-Here's an explanation of the key directories in the Linux file system hierarchy and their special purposes:
-
-![](file-stucture.webp)
-
-1. **/ (Root Directory):**
-   - The root directory is the top-level directory in the Linux file system hierarchy. It serves as the starting point for the entire directory tree.
-   - Special Purpose: It contains essential system files, configurations, and subdirectories that organize the entire file system.
-
-2. **/bin (Binary Binaries):**
-   - The /bin directory contains essential system binaries and commands that are required for system recovery and repair, even if other file systems are not mounted.
-   - Special Purpose: It contains fundamental command-line utilities necessary for system maintenance and recovery.
-
-3. **/sbin (System Binaries):**
-   - Similar to /bin, the /sbin directory holds system binaries and commands, but these are intended for administrative or system maintenance tasks.
-   - Special Purpose: It contains utilities used by the system administrator for system configuration and recovery.
-
-4. **/etc (System Configuration):**
-   - The /etc directory stores system-wide configuration files and scripts, which configure various aspects of the operating system and installed software.
-   - Special Purpose: It contains critical configuration files for system services, network settings, user authentication, and more.
-
-5. **/lib (Library Files):**
-   - The /lib directory contains shared library files (shared objects) that are essential for the operation of programs and system utilities.
-   - Special Purpose: It stores dynamic link libraries required by various executables to run properly.
-
-6. **/usr (User Binaries and Data):**
-   - The /usr directory is a major subdirectory that contains user-specific data, executables, and libraries.
-   - Special Purpose: It houses most of the system's user-related binaries, libraries, documentation, and data, making it one of the largest directories in the file system.
-
-7. **/var (Variable Data):**
-   - The /var directory holds variable data, such as log files, spool directories, mail, and other files that may change in size over time.
-   - Special Purpose: It is used to store data that can change during system operation. For example, system logs are located in /var/log.
-
-8. **/tmp (Temporary Files):**
-   - The /tmp directory serves as a location for temporary files created by applications and users. These files are typically deleted upon system reboot.
-   - Special Purpose: It provides a space for short-lived temporary files used by running processes.
-
-9. **/home (User Home Directories):**
-   - The /home directory contains user home directories where users store their personal files, documents, and configurations.
-   - Special Purpose: Each user has a dedicated directory here to manage their files and settings.
-
-10. **/mnt (Mount Point):**
-    - The /mnt directory is used as a mount point for temporarily mounting external devices, such as USB drives or network shares.
-    - Special Purpose: It provides a location to access and interact with external storage devices.
-
-11. **/boot (Boot Files):**
-    - The /boot directory contains files required for the system's bootloader and kernel initialization.
-    - Special Purpose: It stores the bootloader configuration and the kernel image used during the boot process.
-
-12. **/opt (Optional Software):**
-    - The /opt directory is used to install and store optional software packages and applications not included in the base system.
-    - Special Purpose: It allows for the installation of third-party or add-on software in an organized manner.
-
-13. **/srv (Service Data):**
-    - The /srv directory is intended for site-specific data and configuration files related to system services.
-    - Special Purpose: It provides a location for storing data used by services such as web servers and FTP servers.
-
-This explanation provides an overview of the most significant directories in the Linux file system hierarchy and their special purposes. Understanding this hierarchy is essential for efficient file management, system administration, and troubleshooting on a Linux system.
