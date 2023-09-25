@@ -22,3 +22,4 @@
 
 ## 12. Differentiate between Full and Incremental Backup. What is disk mirroring? Explain the process of creating backup with tools you know.
 
+## 13. Explain the file permissions in detail.
