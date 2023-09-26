@@ -634,3 +634,45 @@ tar -cvzf backup.tar.gz /source_directory
 - `-f`: Specify the archive file name.
 - `backup.tar.gz`: The name of the backup archive.
 - `/source_directory`: The directory you want to back up.
+
+## 13. Explain the file permissions in detail.
+File permissions in Linux define how files and directories can be accessed, modified, and executed. They play a crucial role in system security by regulating who can perform various actions on files. File permissions are represented by a series of letters and symbols, such as "rwxr-xr--," which convey specific information about access rights. These permissions are primarily associated with three entities:
+
+1. **User (Owner):** The user who owns the file or directory. The owner has the most control over the file, including the ability to change permissions and delete it.
+
+2. **Group:** A group to which the file or directory belongs. Multiple users can be members of a group, and permissions can be applied to all members collectively.
+
+3. **Others (World):** Everyone else who is not the owner or a member of the group.
+
+File permissions are divided into three categories:
+
+1. **Read (r):** Allows the entity to read the content of the file or list the contents of a directory.
+
+2. **Write (w):** Allows the entity to modify or delete the file, as well as create, delete, or rename files within a directory.
+
+3. **Execute (x):** For files, it allows the entity to execute the file as a program or script. For directories, it permits the entity to access the directory and its contents.
+
+Now, let's explore how file permissions are represented and how to set them:
+
+**Representation:** File permissions are represented as a 9-character string, often displayed as three groups of three characters each. Each group represents the permissions for the owner, group, and others, respectively. The characters in each group are:
+
+- The first character indicates the file type. It can be a regular file ("-") or a directory ("d").
+- The next three characters represent the owner's permissions (read, write, and execute).
+- The following three characters represent the group's permissions.
+- The last three characters represent permissions for others.
+
+**Symbolic Representation:**
+
+- To set permissions, you can use symbolic representation. For example:
+  - `chmod u+x file.txt`: Adds execute permission for the owner of `file.txt`.
+  - `chmod go-rw file.txt`: Removes read and write permissions for the group and others.
+
+**Octal Representation:**
+
+- File permissions can also be represented using octal numbers. Each permission (read, write, and execute) is assigned a numeric value: read (4), write (2), execute (1). You add these values to set permissions.
+  - For example, to set read and write permissions for the owner and only read permission for others, you would use `chmod 644 file.txt`.
+
+**Examples of File Permissions:**
+
+- `rw-r--r--`: A file where the owner has read and write permissions, while the group and others have only read permissions.
+- `drwxr-xr-x`: A directory where the owner can read, write, and access it, while the group and others can only read and access it.
