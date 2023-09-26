@@ -3,6 +3,7 @@
     "bootable",
     "bootloader",
     "distros",
+    "filesystems",
     "POSIX",
     "TCSH",
     "TENEX",
