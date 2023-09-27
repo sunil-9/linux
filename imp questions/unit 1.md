@@ -155,7 +155,7 @@ Linux offers several advantages over other operating systems, which contribute t
 Linux is a Unix-like operating system kernel that forms the core of various Linux distributions, commonly referred to as Linux distros. Linux was initially developed by Linus Torvalds in 1991, and since then, it has grown into a robust and versatile platform used in a wide range of computing environments.
 
 **Architecture:**
-
+![](architecture-of-linux.png)
 The architecture of Linux can be broken down into several key components:
 
 1. **Kernel:** The Linux kernel is the core of the operating system. It manages hardware resources, including CPU, memory, storage devices, and peripheral devices. It provides essential services such as process management, memory management, file system management, and device drivers. The kernel communicates directly with the hardware and serves as an intermediary between the hardware and software applications.
