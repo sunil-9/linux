@@ -15,8 +15,8 @@
 **Unit I: Introduction 2 hours**
 
 1. Linux:
-   i. History
-   ii. Introduction
+   -  History
+   - Introduction
 2. Advantages of Linux over other operating systems
 3. FAT, NTFS, EXT
 4. Culture of free software
@@ -25,12 +25,12 @@
 
 1.  Commands
 2.  Shells:
-    i. Csh
-    ii. Ksh
-    iii. Bash
+    - Csh
+    - Ksh
+    - Bash
 3.  Text Editors:
-    i. Vim
-    ii. Pico
+    - Vim
+    - Pico
 4.  The file system of Linux
 5.  Directories and their special purpose
 

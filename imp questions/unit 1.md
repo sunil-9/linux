@@ -155,22 +155,20 @@ Linux offers several advantages over other operating systems, which contribute t
 Linux is a Unix-like operating system kernel that forms the core of various Linux distributions, commonly referred to as Linux distros. Linux was initially developed by Linus Torvalds in 1991, and since then, it has grown into a robust and versatile platform used in a wide range of computing environments.
 
 **Architecture:**
-
+![](architecture-of-linux.png)
 The architecture of Linux can be broken down into several key components:
 
-1. **Kernel:** The Linux kernel is the core of the operating system. It manages hardware resources, including CPU, memory, storage devices, and peripheral devices. It provides essential services such as process management, memory management, file system management, and device drivers. The kernel communicates directly with the hardware and serves as an intermediary between the hardware and software applications.
+1. **Hardware:** The hardware layer consists of physical devices, such as the CPU, memory, storage, and network interface cards (NICs). These hardware components provide the resources needed to run the operating system and software applications.
 
-2. **System Libraries:** Above the kernel, Linux includes a set of system libraries that provide standard functions and interfaces for applications. These libraries include the GNU C Library (glibc) and other libraries that enable developers to create software that can interact with the kernel and perform various system-level tasks.
+2. **Kernel:** The Linux kernel is the core of the operating system. It manages hardware resources, including CPU, memory, storage devices, and peripheral devices. It provides essential services such as process management, memory management, file system management, and device drivers. The kernel communicates directly with the hardware and serves as an intermediary between the hardware and software applications.
 
 3. **Shell:** The shell is a command-line interface (CLI) that allows users to interact with the operating system by typing commands. Popular Linux shells include Bash (Bourne Again Shell), Zsh (Z Shell), and Tcsh. The shell interprets user commands and communicates with the kernel to execute them.
 
 4. **Utilities:** Linux provides a wide range of command-line utilities and tools for various tasks, such as file manipulation, text processing, network configuration, and system administration. These utilities are essential for managing and maintaining a Linux system.
 
-5. **File System:** Linux uses a hierarchical file system structure, similar to other Unix-like operating systems. The file system organizes data and provides a consistent way to access files and directories. Common file systems used in Linux include Ext4, XFS, and Btrfs.
+5. **Application Software:** Application software refers to user-level programs that run on top of the operating system. These include desktop applications, server software, and web browsers. Linux supports a wide range of applications, including open-source and proprietary software.
 
-6. **Graphical User Interface (GUI):** While Linux is often used in a command-line interface (CLI), it also supports graphical user interfaces (GUIs). Popular Linux GUI environments include GNOME, KDE, Xfce, and LXQt. These GUIs provide a user-friendly way to interact with the system.
-
-7. **User Space:** User space refers to the area where user-level applications and processes run. These applications can be desktop software, server applications, web browsers, and more. The user space communicates with the kernel through system calls to perform various tasks.
+6. **User:** The user is the person who interacts with the operating system and software applications. Users can access the system through the shell or graphical user interface (GUI) and run various commands and programs.
 
 **Different Linux Distributions (Distros):**
 
@@ -216,12 +214,6 @@ The "culture of free software" refers to a set of principles, values, and practi
 
 4. **Freedom to Distribute:** Users should be able to share the software with others, either in its original form or with modifications, under the same terms that they received it.
 
-5. **Community and Collaboration:** The culture of free software encourages collaboration among developers and users. It values open communication, sharing of knowledge, and a sense of community.
-
-6. **Openness and Transparency:** Free software projects typically make their source code and development processes transparent to the public, fostering trust and accountability.
-
-The culture of free software is often associated with licenses like the GNU General Public License (GPL), which enforces these freedoms and ensures that software remains open and freely available to others. Examples of projects embodying this culture include the GNU Project, the Linux kernel, and various open-source software initiatives.
-
 **Linux and UNIX Relationship:**
 
 Linux and UNIX are closely related in terms of their operating system design and history. Here's an explanation of their relationship:
@@ -241,4 +233,3 @@ Linux and UNIX are closely related in terms of their operating system design and
    - Linux systems are designed to be compatible with many UNIX applications and commands, allowing software developed for UNIX to run on Linux with relatively few modifications.
    - Interoperability between Linux and other UNIX systems is facilitated by their adherence to common standards.
 
-In summary, Linux is an open-source UNIX-like operating system that draws inspiration from UNIX but has evolved independently. It shares design principles and compatibility with UNIX systems while maintaining its own distinct identity and development community.
