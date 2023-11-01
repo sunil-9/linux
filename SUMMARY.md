@@ -1,6 +1,6 @@
 # Table of contents
 
-* [syllabus](syllabus/readme.md)
+* [syllabus](README.md)
 * [unit 1-Introduction](<unit 1-Introduction/README.md>)
   * [Unit I: Introduction to Linux](<unit 1-Introduction/1.Introduction to Linux.md>)
   * [2. Advantages of Linux over other operating systems](<unit 1-Introduction/2.Advantages of Linux.md>)
@@ -15,8 +15,8 @@
   * [6.permission](<unit 2-Basics of Linux/6.permission.md>)
 * [unit 3-Installation](<unit 3-Installation/README.md>)
   * [1. Partitioning](<unit 3-Installation/1. Partitioning.md>)
-  * [2.  Installation of Linux](<unit 3-Installation/2.  Installation of Linux.md>)
-  * [3.  Troubleshooting of installation](<unit 3-Installation/3.  Troubleshooting of installation.md>)
+  * [2. Installation of Linux](<unit 3-Installation/2.  Installation of Linux.md>)
+  * [3. Troubleshooting of installation](<unit 3-Installation/3.  Troubleshooting of installation.md>)
 * [unit 4-System Administration](<unit 4-System Administration/README.md>)
   * [1.Root login](<unit 4-System Administration/1.Root login.md>)
   * [2.Superuser](<unit 4-System Administration/2.Superuser.md>)
@@ -61,7 +61,7 @@
 * [unit 11-ISP Simulation](<unit 11-ISP Simulation/README.md>)
   * [2.Checking the status](<unit 11-ISP Simulation/1.Integration of servers.md>)
   * [3.Working with database](<unit 11-ISP Simulation/2.DNS, Web, Email, etc.md>)
-* [fullform](README.md)
+* [fullform](<README (1).md>)
 * [Practicals](Practicals/README.md)
   * [1.Introduction to DHCP](<Practicals/1.Linux utilities.md>)
   * [2.Setting up a DHCP server](<Practicals/2.OS installation project work.md>)
