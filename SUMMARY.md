@@ -65,6 +65,7 @@
   * [2.Checking the status](<unit 11-ISP Simulation/1.Integration of servers.md>)
   * [3.Working with database](<unit 11-ISP Simulation/2.DNS, Web, Email, etc.md>)
 * [fullform](<README (1).md>)
+* [Assignment](assignment.md)
 * [Practicals](Practicals/README.md)
   * [1.Linux utilities](<Practicals/1.Linux utilities.md>)
   * [2.OS installation project work](<Practicals/2.OS installation project work.md>)
