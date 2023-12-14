@@ -7,7 +7,6 @@ Audi
 BMW
 Bentley
 Maserati
-Seat
 Volvo
 ```
 
@@ -18,8 +17,7 @@ Write a script to generate the following output using the above file:
 2. BMW
 3. Bentley
 4. Maserati
-5. Seat
-6. Volvo
+5. Volvo
 ```
 
 ### Q2: Calculating Factorial
