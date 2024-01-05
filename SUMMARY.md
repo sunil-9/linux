@@ -54,7 +54,7 @@
   * [3.Setting up DHCP Client](<unit 8-Setting up DHCP and NIS/3.Setting up DHCP client.md>)
   * [4.Understand NIS](<unit 8-Setting up DHCP and NIS/4.Understand NIS.md>)
 * [unit 9-Setting up a Database Server](<unit 9-Setting up a Database Server/README.md>)
-  * [1.Setting up a Database Server](<unit 9-Setting up a Database Server/1.Configuring database server.md>)
+  * [1.Configuring database server](<unit 9-Setting up a Database Server/1.Configuring database server.md>)
   * [2.Checking the status](<unit 9-Setting up a Database Server/2.Checking the status.md>)
   * [3.Working with database](<unit 9-Setting up a Database Server/3.Working with database.md>)
 * [unit 10-Setting up DNS](<unit 10-Setting up DNS/README.md>)
