@@ -90,3 +90,6 @@
   * [unit ii](<imp questions/unit ii.md>)
 * [services](services/README.md)
   * [create\_service](services/create\_service.md)
+* [Viva+Practical](viva+practical.md)
+  * [VIVA questions](viva+practical.md#viva-questions)
+  * [Practical questions](viva+practical.md#practical-questions)
